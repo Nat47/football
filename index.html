@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Project</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container"> <!-- start container-->
+		<div class="row">
+			<div class="col-md-3 vertical_line ">
+				<h1>5-a-side Football Teams</h1>
+				<p>Enter a list of namess and the generator will assign people randomly to teams!</p>
+				<h4>Write your Teams!</h4>
+				<input type="text" id="add" class="add">
+				<input type="submit" value="Add Your Teams!" class="submit" id="submit" />
+				<input type="submit" value="Random Teams!" class="split" id="split" />
+				<input type="submit" value="Start Again!" onClick="window.location.reload()" id="submit">
+			</div>
+			<div class="col-md-3">
+				<ol id="output"></ol>
+			</div>
+			<div class="col-md-3">
+				<ol id="output1"></ol>
+			</div>
+			<div class="col-md-3">
+				<ol id="output2"></ol>
+			</div>
+		</div>
+	</div> <!--end container-->
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/project.js"></script>
+</body>
+</html>
+
