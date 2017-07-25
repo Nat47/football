@@ -1,43 +1,43 @@
 
+$primary-color: #1BDD3B;
+$border-color: #000;
+$color-text: #065706;
+
 .container{
 	background: radial-gradient(circle, green, green);
 	font-family: 'Pangolin', cursive;
-	border: 10px solid #000;
+	border: 10px solid $border-color;
 	border-radius: 20px;
 	margin-top: 30px;
 }
 
 h1 {
 	padding: 5px;
-	background: #1BDD3B;
-	border: 3px solid #000;
+	background: $primary-color;
+	border: 3px solid $border-color;
 	border-radius: 20px;
 }
 
 p {
 	font-weight: bolder;
-	color:#065706;
+	color:$color-text;
 
 }
 
-.vertical_line {
-	border-right: 1px solid #fff; 
-}
+.vertical_line {border-right: 1px solid #fff;}
 
 h4 {
 	width: 100px;
 	text-align: center;
 	padding: 5px;
-	background: #1BDD3B;
-	border: 3px solid #000;
+	background: $primary-color;
+	border: 3px solid $border-color;
 	border-radius: 10px;
 	position: relative;
 	left:45px;
 }
 
-input[type="text"] {
-	margin: 10px;
-}
+input[type="text"] {margin: 10px;}
 
 input[type="text"]:focus {
 	box-shadow: 0 0 5px rgba(69, 192, 26, 1);
@@ -47,8 +47,8 @@ input[type="text"]:focus {
 #submit {
 	width: 135px;
 	height: 60px;
-	color: #065706;
-	background-color: #1BDD3B;
+	color: $color-text;
+	background-color: $primary-color;
 	border: 1px solid #00FF7C;
 	border-radius: 5px;
 	box-shadow: 0px 5px 0px #0BA825;
@@ -71,8 +71,8 @@ input[type="text"]:focus {
 #split {
 	width: 135px;
 	height: 60px;
-	color: #065706;
-	background-color: #1BDD3B;
+	color: $color-text;
+	background-color: $primary-color;
 	border: 1px solid #00FF7C;
 	border-radius: 5px;
 	box-shadow: 0px 5px 0px #0BA825;
@@ -86,16 +86,11 @@ input[type="text"]:focus {
 #split:active {
 	box-shadow: 0 3px 0 #00823F;
 	top: 3px;
-
 }
 
-#split:focus {
-	outline: none;
-}
+#split:focus {outline: none;}
 
-ol {
-	list-style-type: none;
-}
+ol {list-style-type: none;}
 
 ol li {
 	position: relative;
@@ -137,7 +132,7 @@ ol li {
 	left: 1070px;
 	top: 10px;
 	color: green;
-	background-color: #000;
+	background-color: $border-color;
 	border-radius: 50%;
 	padding: 5px;
 }
