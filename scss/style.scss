@@ -37,11 +37,13 @@ h4 {
 	left:45px;
 }
 
-input[type="text"] {margin: 10px;}
+input[type="text"] {
+	margin: 10px;
 
-input[type="text"]:focus {
-	box-shadow: 0 0 5px rgba(69, 192, 26, 1);
-	border: 1px solid rgba(69, 192, 26, 1);
+	&:focus {
+		box-shadow: 0 0 5px rgba(69, 192, 26, 1);
+		border: 1px solid rgba(69, 192, 26, 1);
+	}
 }
 
 #submit {
@@ -57,15 +59,15 @@ input[type="text"]:focus {
 	position: relative;
 	left: 30px;
 	transition: all ease 0.3s;
-}
 
-#submit:active {
-	box-shadow: 0 3px 0 #00823F;
-	top: 3px;
-}
+		&:active {
+			box-shadow: 0 3px 0 #00823F;
+			top: 3px;
+		}
 
-#submit:focus {
-	outline: none;
+		&:focus {
+			outline: none;
+		}
 }
 
 #split {
@@ -81,44 +83,62 @@ input[type="text"]:focus {
 	position: relative;
 	left: 10px;
 	transition: all ease 0.3s;
+
+		&:active {
+			box-shadow: 0 3px 0 #00823F;
+			top: 3px;
+		}
+
+		&:focus {
+			outline: none;
+		}
 }
 
-#split:active {
-	box-shadow: 0 3px 0 #00823F;
-	top: 3px;
+ol {
+	list-style-type: none;
+		
+	li {
+		position: relative;
+		right: 20px;
+		font-weight: bolder;
+		font-size: 20px;
+	}
+
 }
 
-#split:focus {outline: none;}
+.col-md-3 {
 
-ol {list-style-type: none;}
+	#output {
+		li {
+			color: #1D2D27;
+			position: relative;
+			left: 24px;
+		}
+	}
 
-ol li {
-	position: relative;
-	right: 20px;
-	font-weight: bolder;
-	font-size: 20px;
+	#output1 {
+		li {
+		color: #033F63;
+		position: relative;
+		right: 35px;
+		}
+	}
+
+	#output2 {
+		li {
+		color: #504602;
+		position: relative;
+		right: 35px;
+		}
+	}
 }
 
-#output {
-	text-align: center;
-	margin-top: 30px;
-	text-decoration: none;
-	border: 5px solid yellow;
-	border-radius: 50%;
-}
-
-#output1 {
-	margin-top: 30px;
-	border: 5px solid blue;
-	border-radius: 50%;
-	text-align: center;
-}
-
-#output2 {
-	margin-top: 30px;
-	border: 5px solid purple;
-	border-radius: 50%;
-	text-align: center;
+.teams {
+	font-size: 15px;
+	padding: 5px;
+	background-color: $border-color;
+	color: $primary-color;
+	border-radius: 4px;
 }
 
 .left {
@@ -135,10 +155,10 @@ ol li {
 	background-color: $border-color;
 	border-radius: 50%;
 	padding: 5px;
-}
 
-.switch:hover {
-	text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
 }
 
 .changeLanguage {
@@ -146,7 +166,10 @@ ol li {
 	left: 100px;
 	top: 10px;
 	color: $color-text;
-	// background-color: $border-color;
 	border-radius: 5px;
 	padding: 5px;
+}
+
+.team1 {
+	font-weight: bolder;
 }
