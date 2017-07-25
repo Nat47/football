@@ -3,24 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Spanish Team</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="scss/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
-	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
 
 	<div class="container"> <!-- start container-->
+	<label class="changeLanguage">Change Language</label>
 		<a class="switch" href="index.html">EN</a>
-		<!-- <a class="switch" href="index.html">EN</a> -->
 		<div class="row">
 			<div class="col-md-3 vertical_line ">
 				<h1>Tus equipos de futbol</h1>
 				<p>Escribe la lista de nombres y el generador asignará los equipos de forma aleatoria!</p>
 				<h4>Escribe tus equipos favoritos!</h4>
 				<input type="text" id="add" class="add">
-				<input type="submit" value="Añade tus equipos!" class="submit" id="submit" />
+				<input type="submit" value="Añade tus jugadores!" class="submit" id="submit" />
 				<input type="submit" value="Equipos aleatorios!" class="split" id="split" />
-				<input type="submit" value="Comienza otra vez!" onClick="window.location.reload()" id="submit">
+				<input type="submit" value="Empieza otra vez!" onClick="window.location.reload()" id="submit">
 			</div>
 			<div class="col-md-3">
 				<ol id="output"></ol>
