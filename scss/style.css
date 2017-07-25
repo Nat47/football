@@ -3,7 +3,7 @@
   font-family: 'Pangolin', cursive;
   border: 10px solid #000;
   border-radius: 20px;
-  margin-top: 30px; }
+  margin-top: 3px; }
 
 h1 {
   padding: 5px;
@@ -112,7 +112,7 @@ ol li {
 .switch {
   text-decoration: none;
   position: relative;
-  left: 1070px;
+  left: 100px;
   top: 10px;
   color: green;
   background-color: #000;
@@ -121,5 +121,13 @@ ol li {
 
 .switch:hover {
   text-decoration: none; }
+
+.changeLanguage {
+  position: relative;
+  left: 100px;
+  top: 10px;
+  color: #065706;
+  border-radius: 5px;
+  padding: 5px; }
 
 /*# sourceMappingURL=style.css.map */
