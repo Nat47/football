@@ -33,7 +33,7 @@ function shuffleTeams(array) {
     return array;
 }
 
-// fuction to shuffle the array
+// function to shuffle the array
 $("#split").click(function() {
     $("#output1").empty();
     $("#output2").empty();
@@ -62,5 +62,4 @@ $("#split").click(function() {
         team2.forEach(function(value) {
             $( "<li>"+value+"</li>").appendTo("#output2");
         });
-        
-    });
+     });
