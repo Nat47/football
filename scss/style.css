@@ -92,6 +92,11 @@ ol {
   position: relative;
   right: 35px; }
 
+.showTeams {
+  font-size: 22px;
+  padding: 5px;
+  color: #1BDD3B; }
+
 .teams {
   font-size: 15px;
   padding: 5px;
@@ -105,6 +110,7 @@ ol {
 
 .switch {
   text-decoration: none;
+  font-size: 20px;
   position: relative;
   left: 100px;
   top: 10px;
@@ -113,17 +119,15 @@ ol {
   border-radius: 50%;
   padding: 5px; }
   .switch:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: #1BDD3B; }
 
 .changeLanguage {
   position: relative;
   left: 100px;
   top: 10px;
-  color: #065706;
+  color: #1BDD3B;
   border-radius: 5px;
   padding: 5px; }
-
-.team1 {
-  font-weight: bolder; }
 
 /*# sourceMappingURL=style.css.map */
