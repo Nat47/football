@@ -109,4 +109,17 @@ ol li {
   width: 100px;
   height: 100px; }
 
+.switch {
+  text-decoration: none;
+  position: relative;
+  left: 1070px;
+  top: 10px;
+  color: green;
+  background-color: #000;
+  border-radius: 50%;
+  padding: 5px; }
+
+.switch:hover {
+  text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
