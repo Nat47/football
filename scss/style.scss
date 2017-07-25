@@ -112,7 +112,6 @@ ol {
 		li {
 			color: #1D2D27;
 			position: relative;
-			// right: 25px;
 		}
 	}
 
@@ -133,6 +132,12 @@ ol {
 	}
 }
 
+.showTeams {
+	font-size: 22px;
+	padding: 5px;
+	color: $primary-color;
+}
+
 .teams {
 	font-size: 15px;
 	padding: 5px;
@@ -148,6 +153,7 @@ ol {
 
 .switch {
 	text-decoration: none;
+	font-size: 20px;
 	position: relative;
 	left: 100px;
 	top: 10px;
@@ -158,6 +164,7 @@ ol {
 
 		&:hover {
 			text-decoration: none;
+			color: $primary-color;
 		}
 }
 
@@ -165,11 +172,7 @@ ol {
 	position: relative;
 	left: 100px;
 	top: 10px;
-	color: $color-text;
+	color: $primary-color;
 	border-radius: 5px;
 	padding: 5px;
-}
-
-.team1 {
-	font-weight: bolder;
 }
