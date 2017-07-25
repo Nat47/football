@@ -35,6 +35,9 @@ function shuffleTeams(array) {
 
 // fuction to shuffle the array
 $("#split").click(function() {
+    $("#output1").empty();
+    $("#output2").empty();
+
     event.preventDefault();
 
     var teamMember = [];
