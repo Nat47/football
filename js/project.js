@@ -35,6 +35,7 @@ function shuffleTeams(array) {
 
 // function to shuffle the array
 $("#split").click(function() {
+    //stops the array of double the items after keep pressing the button
     $("#output1").empty();
     $("#output2").empty();
 
