@@ -64,7 +64,7 @@ input[type="text"] {
   margin: 20px;
   border: none;
   position: relative;
-  left: 10px;
+  left: 30px;
   transition: all ease 0.3s; }
   #split:active {
     box-shadow: 0 3px 0 #00823F;
